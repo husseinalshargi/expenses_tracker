@@ -5,6 +5,8 @@ const uuid = Uuid(); //to be able to use this instance anywhere
 //define a group of named constant values.
 enum Category { food, travel, leisure, work }
 
+
+
 class Expense {
   Expense({
     required this.title,
